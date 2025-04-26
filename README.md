@@ -1,7 +1,6 @@
 
 # UNISSRF - By Mon3m
 
-![banner](https://img.shields.io/badge/BY-MON3M-blue?style=for-the-badge)
 
 > Bash script to automate SSRF vulnerability detection via parameter fuzzing, built with creativity and efficiency.  
 > Happy hacking! 🎯
