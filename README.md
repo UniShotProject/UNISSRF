@@ -1,5 +1,5 @@
 
-# SSRF Scanner - By Mon3m
+# UNISSRF - By Mon3m
 
 ![banner](https://img.shields.io/badge/BY-MON3M-blue?style=for-the-badge)
 
@@ -45,7 +45,7 @@ It fetches historical URLs via **Waybackurls**, filters those with parameters, a
 
 ```bash
 chmod +x ssrf_scanner.sh
-./ssrf_scanner.sh -u <url> | -l <file> [-a | -p] [-s <blind_server>] [--auto] [--server-only <url>]
+./unissrf.sh -u <url> | -l <file> [-a | -p] [-s <blind_server>] [--auto] [--server-only <url>]
 ```
 
 ### Options:
@@ -66,22 +66,22 @@ chmod +x ssrf_scanner.sh
 
 **Scan a single target:**
 ```bash
-./ssrf_scanner.sh -u https://example.com
+./unissrf.sh -u https://example.com
 ```
 
 **Scan a list of targets:**
 ```bash
-./ssrf_scanner.sh -l targets.txt
+./unissrf.sh -l targets.txt
 ```
 
 **Scan all parameters with a custom server:**
 ```bash
-./ssrf_scanner.sh -u https://example.com -a -s http://yourserver.com
+./unissrf.sh -u https://example.com -a -s http://yourserver.com
 ```
 
 **Use only server payloads (blind SSRF detection):**
 ```bash
-./ssrf_scanner.sh -u https://example.com --server-only http://yourserver.com
+./unissrf.sh -u https://example.com --server-only http://yourserver.com
 ```
 
 ---
@@ -117,7 +117,7 @@ chmod +x ssrf_scanner.sh
 
 - **Name:** Mon3m
 - **Title:** Bug Hunter, Ethical Hacker, Pentester
-- **Connect:** [LinkedIn](#) | [Twitter](#)
+- **Connect:** [LinkedIn](https://www.linkedin.com/in/mohamed-abd-el-moneam-162933315) 
 
 ---
 
