@@ -43,7 +43,7 @@ It fetches historical URLs via **Waybackurls**, filters those with parameters, a
 ## 🛠️ Usage
 
 ```bash
-chmod +x ssrf_scanner.sh
+chmod +x unissrf.sh
 ./unissrf.sh -u <url> | -l <file> [-a | -p] [-s <blind_server>] [--auto] [--server-only <url>]
 ```
 
